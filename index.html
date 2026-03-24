@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vínculo Psicológico Infanto - Juvenil | Psic. Ana Belem Aviña</title>
+    
+    <!-- Tailwind CSS para el diseño responsivo -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <!-- Fuentes de Google -->
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;500;700&family=Nunito:wght@400;600;800&display=swap" rel="stylesheet">
+    
+    <!-- Enlace al archivo de diseño externo -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="text-slate-700">
+
+    <!-- Navegación -->
+    <nav class="fixed w-full z-50 bg-white/90 backdrop-blur-lg border-b border-stone-100">
+        <div class="max-w-7xl mx-auto px-6 py-3 flex justify-between items-center">
+            <div class="flex items-center gap-3">
+                <img src="./assets/logo.jpg" alt="Logo" class="w-12 h-12 object-contain rounded-full">
+                <div class="flex flex-col">
+                    <span class="text-lg font-bold text-stone-700 font-title leading-tight">Vínculo Psicológico</span>
+                    <span class="text-[10px] uppercase tracking-widest text-stone-400 font-bold">Infanto-Juvenil</span>
+                </div>
+            </div>
+            <div class="hidden lg:flex space-x-8 font-semibold text-slate-500 text-sm">
+                <a href="#inicio" class="hover:text-stone-800 transition">Inicio</a>
+                <a href="#especialidad" class="hover:text-stone-800 transition">Especialista</a>
+                <a href="#Orientacion con IA" class="hover:text-[#b59a5d] transition">Orientación IA</a>
+                <a href="#contacto" class="hover:text-stone-800 transition">Contacto</a>
+            </div>
+            <a href="https://wa.me/523221987592" target="_blank" class="bg-[#b59a5d] text-white px-5 py-2 rounded-full font-bold text-sm shadow-md hover:bg-stone-700 transition">
+                Agendar Cita
+            </a>
+        </div>
+    </nav>
+
+    <!-- Sección de Inicio -->
+    <section id="inicio" class="pt-32 pb-20 px-6 min-h-screen flex items-center hero-gradient bg-logo-pattern">
+        <div class="max-w-7xl mx-auto grid md:grid-cols-2 gap-12 items-center">
+            <div>
+                <span class="bg-stone-100 text-stone-600 px-4 py-1 rounded-full text-xs font-bold uppercase tracking-widest border border-stone-200">Psicología Clínica Infantil</span>
+                <h1 class="text-4xl md:text-6xl font-bold mt-6 mb-8 text-stone-800 leading-tight">
+                    Atención Psicológica <br><span class="text-[#b59a5d]">By: Ana Belem Aviña</span>
+                </h1>
+                <p class="text-lg text-slate-500 mb-10 leading-relaxed max-w-lg">
+                    Un espacio diseñado para el bienestar emocional y el desarrollo integral de niñas, niños y adolescentes en Puerto Vallarta.
+                </p>
+                <a href="#contacto" class="inline-flex items-center gap-2 bg-stone-800 text-white px-8 py-4 rounded-2xl shadow-xl hover:bg-black transition">
+                    <span>Iniciar Proceso</span>
+                    <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"></path></svg>
+                </a>
+            </div>
+            <div class="relative flex justify-center">
+                <div class="relative z-10 max-w-[400px]">
+                    <img src="./assets/ana-belem-hero.jpg" alt="Ana Belem Hero" class="w-full h-auto shadow-2xl rounded-[3rem] border-8 border-white">
+                    <div class="absolute -bottom-6 -right-4 bg-white p-5 rounded-2xl shadow-lg border border-stone-100 text-right">
+                        <p class="text-stone-700 font-bold">Psic. Ana Belem Aviña</p>
+                        <p class="text-stone-400 text-[10px] uppercase font-bold tracking-tighter">Cédula Prof: 14525339</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección Especialista -->
+    <section id="especialista" class="py-24 px-6 bg-white">
+        <div class="max-w-6xl mx-auto flex flex-col md:flex-row items-center gap-16">
+            <div class="md:w-1/2">
+                <!-- Contenedor de la imagen del perfil -->
+                <div class="profile-border overflow-hidden border-8 border-white shadow-xl h-[450px] bg-stone-100">
+                    <img src="assets/foto.jpg" alt="Perfil" class="w-full h-full"> onerror="this.parentElement.innerHTML='<div class=\'flex items-center justify-center h-full text-stone-400\'>Imagen no encontrada en assets/ana-belem-profile.jpg</div>'">
+                </div>
+                <div class="mt-8 p-6 bg-stone-50 rounded-2xl border-l-4 border-stone-800 italic text-stone-600 text-sm">
+                    "Soy una persona capaz y preparada. Me caracteriza el deseo constante de superacion; En los últimos dos años he vivido un proceso continuo de actualización y crecimiento, tanto a nivel personal como profesional y mental."
+                </div>
+            </div>
+            <div class="md:w-1/2">
+                <h2 class="text-3xl font-bold font-title text-stone-800 mb-4">Formación y Enfoque</h2>
+                <div class="w-12 h-1 bg-[#b59a5d] mb-6"></div>
+                <p class="text-slate-600 mb-6 leading-relaxed">
+                    Especialista en acompañamiento clínico y emocional con amplia experiencia en procesos terapéuticos para <strong>niños y adolescentes.</strong> Mi labor se centra en la intervención integral ante situaciones de duelo y crisis de identidad.
+                </p>
+                <div class="space-y-4">
+                    <div class="flex items-center gap-4 p-4 glass-card rounded-xl border-l-4 border-l-red-300">
+                        <span class="text-2xl">🎓</span>
+                        <div>
+                            <p class="font-bold text-stone-700 text-sm">Maestría en Psicología Clínica Infantil</p>
+                            <p class="text-[10px] text-stone-500 uppercase font-bold">En proceso</p>
+                        </div>
+                    </div>
+                <div class="space-y-4">
+                    <div class="flex items-center gap-4 p-4 glass-card rounded-xl border-l-4 border-l-blue-300">
+                        <span class="text-2xl">📝</span>
+                        <div>
+                            <p class="font-bold text-stone-700 text-sm">Gestion Estrategica Personal</p>
+                        </div>
+                    </div>
+                <div class="space-y-4">
+                    <div class="flex items-center gap-4 p-4 glass-card rounded-xl border-l-4 border-l-yellow-300">
+                        <span class="text-2xl">🕊️</span>
+                        <div>
+                            <p class="font-bold text-stone-700 text-sm">Tanatologia y Resiliencia</p>
+                        </div>
+                    </div>
+                <div class="space-y-4">
+                    <div class="flex items-center gap-4 p-4 glass-card rounded-xl border-l-4 border-l-green-300">
+                        <span class="text-2xl">🧩</span>
+                        <div>
+                            <p class="font-bold text-stone-700 text-sm">Psicoterapia  Infantil y del Adolescente</p>
+                        </div>
+                    </div>
+                <div class="space-y-4">
+                    <div class="flex items-center gap-4 p-4 glass-card rounded-xl border-l-4 border-l-purple-300">
+                        <span class="text-2xl">🎈</span>
+                        <div>
+                            <p class="font-bold text-stone-700 text-sm">Autismo Diagnostico e intervención</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    
+
+    <!-- Sección IA -->
+    <section id="ia-orientacion" class="py-20 px-6 bg-stone-50 bg-logo-pattern">
+        <div class="max-w-4xl mx-auto bg-white/80 backdrop-blur-md rounded-[2.5rem] shadow-lg overflow-hidden flex flex-col md:flex-row border border-stone-100">
+            <div class="md:w-1/3 bg-stone-800 p-10 text-white flex flex-col justify-center">
+                <h2 class="text-2xl font-bold mb-4 font-title">Orientación IA ✨</h2>
+                <p class="text-stone-300 text-xs leading-relaxed">Resuelve dudas iniciales de crianza bajo nuestra metodología.</p>
+            </div>
+            <div class="md:w-2/3 p-10">
+                <div class="space-y-4">
+                    <textarea id="ai-parent-input" rows="3" class="w-full p-4 border border-stone-200 rounded-xl text-sm focus:ring-1 focus:ring-stone-400 outline-none" placeholder="¿Cómo puedo ayudar a mi hijo con la ansiedad?"></textarea>
+                    <button id="ai-parent-btn" onclick="consultIA()" class="w-full bg-[#b59a5d] text-white py-4 rounded-xl font-bold hover:bg-stone-700 transition">
+                        Consultar Guía ✨
+                    </button>
+                    <div id="ai-response-box" class="hidden mt-4 p-5 bg-stone-50 rounded-xl border border-stone-100">
+                        <div id="ai-loader" class="hidden text-center text-xs text-stone-400 italic animate-pulse">Analizando respuesta...</div>
+                        <div id="ai-text-output" class="text-xs text-stone-700 leading-relaxed"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contacto -->
+    <section id="contacto" class="py-24 px-6 bg-white border-t border-stone-50">
+        <div class="max-w-5xl mx-auto grid md:grid-cols-2 gap-12">
+            <div class="space-y-6">
+                <h2 class="text-3xl font-bold text-stone-800">Ubicación</h2>
+                <a href="https://www.google.com/maps/place/Zacatecas+203,+1o.+de+Mayo,+48325+Puerto+Vallarta,+Jal./@20.6305459,-105.2181493,18z/data=!3m1!4b1!4m6!3m5!1s0x84214f8a2c0f5def:0xa5f1cd7b6d3ba600!8m2!3d20.6305459!4d-105.2168618!16s%2Fg%2F11dxdj0t9s?entry=ttu&g_ep=EgoyMDI2MDMyMi4wIKXMDSoASAFQAw%3D%3D" target="_blank" class="flex gap-4 items-start group">
+                    <span class="text-2xl">📍</span>
+                    <span class="text-stone-600 group-hover:text-black transition text-sm">Prol. Zacatecas #198, Col. 1ro De Mayo.<br>Puerto Vallarta, Jalisco. (Es El Edificio Ubicado Entre Los Dos Arboles)</span>
+                </a>
+                <a href="mailto:Psicologa_AnaBelemAvina@gmail.com" class="flex gap-4 items-center group">
+                    <span class="text-2xl">✉️</span>
+                    <span class="text-stone-600 group-hover:text-black transition text-sm border-b border-stone-200">Psicologa_AnaBelemAvina@gmail.com</span>
+                </a>
+                <a href="tel:+523221987592" class="flex gap-4 items-center group">
+                    <span class="text-2xl">📞</span>
+                    <span class="text-stone-600 group-hover:text-black transition text-sm border-b border-stone-200">+52 322-198-75-92</span>
+                </a>
+            </div>
+            <div class="flex flex-col justify-center">
+                <a href="https://wa.me/523221987592" target="_blank" class="bg-green-500 text-white py-6 rounded-2xl text-center font-bold shadow-lg hover:bg-green-600 transition">
+                    Contactar por WhatsApp
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Archivo de Interactividad -->
+    <script src="script.js"></script>
+</body>
+</html>

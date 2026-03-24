@@ -1,0 +1,46 @@
+/* Variables de Marca */
+:root {
+    --soft-gold: #fdfaf3;
+    --brand-gold: #b59a5d;
+    --brand-pink: #e9a3b8;
+    --brand-blue: #7cb9e8;
+}
+
+/* Tipografía y Comportamiento Base */
+body {
+    font-family: 'Nunito', sans-serif;
+    background-color: #ffffff;
+    scroll-behavior: smooth;
+}
+
+h1, h2, h3, .font-title {
+    font-family: 'Quicksand', sans-serif;
+}
+
+/* Fondos y Efectos Visuales */
+.bg-logo-pattern {
+    background-image: linear-gradient(rgba(255, 255, 255, 0.94), rgba(255, 255, 255, 0.94)), url('assets/logo.jpg');
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.hero-gradient {
+    background: linear-gradient(135deg, #ffffff 0%, #fdfaf3 100%);
+}
+
+.profile-border {
+    border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%;
+}
+
+.glass-card {
+    background: rgba(255, 255, 255, 0.7);
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(181, 154, 93, 0.2);
+}
+
+/* Transiciones de Navegación */
+nav a.transition {
+    transition: all 0.3s ease;
+}
