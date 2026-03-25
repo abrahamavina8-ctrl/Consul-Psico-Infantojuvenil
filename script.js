@@ -3,7 +3,7 @@
  * Utiliza Google Gemini para responder dudas de crianza.
  */
 
-const apiKey = "AIzaSyBjZcgJS17izl50xi1M52BzB1LnmTrbke8"; // La clave se inyecta automáticamente en el entorno o se configura aquí
+const apiKey = "AIzaSyCjweAb8yeT-g63TpV4iwdFJh4jJqFEp0Y"; // La clave se inyecta automáticamente en el entorno o se configura aquí
 
 async function consultIA() {
     const userInput = document.getElementById('ai-parent-input').value;
